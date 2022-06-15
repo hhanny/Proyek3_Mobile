@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:sibola_mobile/screens/signin_screen.dart';
 import '../reusable_widgets/reusable_widget.dart';
 import '../utils/colors_util.dart';
 import 'home_screen.dart';
@@ -68,7 +69,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => HomeScreen()));
+                              builder: (context) => SignInScreen()));
                     }).onError((error, stackTrace) {
                       print("Error ${error.toString()}");
                     });

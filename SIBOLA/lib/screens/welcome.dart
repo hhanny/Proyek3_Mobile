@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:sibola_mobile/screens/signin_screen.dart';
+import 'package:sibola_mobile/screens/welcome_desc.dart';
 
 import '../reusable_widgets/reusable_widget.dart';
 import '../utils/colors_util.dart';
@@ -21,7 +22,7 @@ class _welcomeState extends State<welcome> {
     super.initState();
     Timer(Duration(seconds: 5), () {
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => SignInScreen()));
+          context, MaterialPageRoute(builder: (context) => WelcomeDesc()));
     });
 
   }

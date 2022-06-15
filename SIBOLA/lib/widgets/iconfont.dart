@@ -3,11 +3,21 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
-class IconFont extends StatelessWidget {
-  const IconFont({Key? key}) : super(key: key);
+// class IconFont extends StatelessWidget {
+  // Color color;
+  // double size;
+  // String iconName;
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold();
-  }
-}
+  // // IconFont({ this.color, this.size, this.iconName });
+
+  // @override
+  // Widget build(BuildContext context) {
+  //   return Text(this.iconName,
+  //       style: TextStyle(
+  //           color: this.color,
+  //           fontSize: this.size,
+  //           fontFamily: 'orilla'
+  //           )
+  //         );
+  // }
+// }
