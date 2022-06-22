@@ -1,2 +1,2 @@
 # Proyek3_Mobile
-cekcek test test
+cekcek test test 1 1
